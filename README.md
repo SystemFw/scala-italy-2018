@@ -1,6 +1,6 @@
 # Shared State in Pure FP: when a State Monad won't do
 
-Slides for my talk at Scala Italy 2018, in Florence (video on its way). You can look at them online at https://systemfw.github.io/scala-italy-2018/#/ (use the spacebar to advance)
+Slides for my talk at Scala Italy 2018, in Florence. You can look at them online at https://systemfw.github.io/scala-italy-2018/#/ (use the spacebar to advance). The video for the talk is [here](https://vimeo.com/294736344)
 
 ## Description
 
