@@ -173,7 +173,6 @@ def map[A, B](vec: Vector[A])(f: A => B): Vector[B] = {
   var i = 0
   val buf = collection.mutable.ArrayBuffer.empty[B]
   while(i < vec.length) {
-    println("hello")
     buf += f(vec(i))
     i += 1
   }
