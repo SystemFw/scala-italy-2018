@@ -486,8 +486,8 @@ Ref.create[IO, Int](0).flatMap { c =>
 
 ```scala
 def cache: IO[Cache[IO, User]] = Cache.create[IO, User]
-def p1(c: Cache[IO, User]): F[Unit] = ???
-def p2(c: Cache[IO, User]): F[Unit] = ???
+def p1(c: Cache[IO, User]): IO[Unit] = ???
+def p2(c: Cache[IO, User]): IO[Unit] = ???
 
 def separateCaches = 
  cache.flatMap(p1) >> cache.flatMap(p2)
